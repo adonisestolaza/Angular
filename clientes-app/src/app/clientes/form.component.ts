@@ -11,7 +11,7 @@ import swal from 'sweetalert2'
 export class FormComponent implements OnInit {
 
   public cliente: Cliente = new Cliente()
-  private titulo:string = "Crear Cliente"
+  private titulo: string = "Crear nuevo Cliente"
   errores: string[];
 
 
